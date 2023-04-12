@@ -1,1 +1,3 @@
-console.log("hola mundo");
+function boton() {
+    console.log("Se oprimio el boton");
+}
