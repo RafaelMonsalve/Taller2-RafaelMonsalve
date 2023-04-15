@@ -1,4 +1,4 @@
-import {Persona} from "./class/Persona";
+import {Persona} from "./class/Persona.js";
 interface persona{
    tipodocumento:string;
    numerodocumento:number;
@@ -9,6 +9,13 @@ interface persona{
    linkedin:string;
    github:string;
 }
+const enviar=document.getElementById("enviar") as HTMLButtonElement;
+
+enviar.addEventListener("click",function(e){
+
+    console.log("ingreso");
+    
+});
 
 function PersonaNew() {
     const tipodocumento = document.getElementById("tipodocumento") as HTMLInputElement;
