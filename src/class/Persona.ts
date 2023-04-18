@@ -1,43 +1,25 @@
 export class Persona {
-   tipodocumento:string;
-   numerodocumento:number;
-   nombres:string;
-   apellidos:string;
-   telefono:number;
-   correo:string;
-   linkedin:string;
-   github:string;
 
-   constructor(tipodocumento:string,
-            numerodocumento:number,
-            nombres:string,
-            apellidos:string,
-            telefono:number,
-            correo:string,
-            linkedin:string,
-            github:string) {
-                this.tipodocumento = tipodocumento;
-                this.numerodocumento=numerodocumento;
-                this.nombres = nombres;
-                this.apellidos = apellidos;
-                this.telefono = telefono;
-                this.correo = correo;
-                this.linkedin = linkedin;
-                this.github = github;
-            }
-    persona(){
-        let personaArray:any[]=[
-            this.tipodocumento,
-            this.numerodocumento,
-            this.nombres,
-            this.apellidos,
-            this.telefono,
-            this.correo,
-            this.linkedin,
-            this.github
-        ];
-        return(personaArray.length);
+    constructor(
+      public tipoDocumento: string,
+      public numeroDocumento: number,
+      public nombres: string,
+      public apellidos: string,
+      public telefono: number,
+      public correo: string,
+      public linkedin: string,
+      public github: string
+    ) {}
+  
+    persona() {
+      console.log(
+        `Tipo de documento: ${this.tipoDocumento}\n
+        Número de documento: ${this.numeroDocumento}\n
+        Nombres: ${this.nombres}\n
+        Apellidos: ${this.apellidos}\n
+        Teléfono: ${this.telefono}\n
+        Correo: ${this.correo}\n
+        LinkedIn: ${this.linkedin}\n
+        Github: ${this.github}`);
     }
-        }
-    
-
+  }

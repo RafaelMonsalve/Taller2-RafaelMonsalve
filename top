@@ -1,0 +1,59 @@
+[33mcommit 83e2a16942ccad1f1c014d06fe3542960d095a08[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Rafael​ <mlrh26@hotmail.com>
+Date:   Tue Apr 18 17:12:47 2023 -0500
+
+    Se modifica la clase persona y el index
+
+[33mcommit 4e57e1e72cd0cf0a7469af19caf3a2a760d22cb4[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/cambios[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mcambios[m[33m)[m
+Author: Rafael​ <mlrh26@hotmail.com>
+Date:   Fri Apr 14 20:36:58 2023 -0500
+
+    Se reaizan cambios en el index.html y index.ts
+
+[33mcommit 9ca84424a21dfdb5475e728d318fd12e3b3b075a[m
+Author: RafaelMonsalve <mlrh26@homail.com>
+Date:   Thu Apr 13 17:56:15 2023 -0500
+
+    Se sube funciones y clase typecript
+
+[33mcommit 3624b951091fd0735d1f85bf33abd2dbd32f9510[m
+Author: RafaelMonsalve <mlrh26@homail.com>
+Date:   Thu Apr 13 11:30:14 2023 -0500
+
+    Se crea la clase y el index de las interacciones entre el model y typescript
+
+[33mcommit b423b501d776a1bb1c092c08b2c417b53c643074[m
+Author: RafaelMonsalve <mlrh26@homail.com>
+Date:   Wed Apr 12 20:29:26 2023 -0500
+
+    Se agrega el input para Github y Linkelin
+
+[33mcommit ffae0e135872fbc420e49ea0c1e861d76acc6396[m
+Author: RafaelMonsalve <mlrh26@homail.com>
+Date:   Wed Apr 12 20:14:00 2023 -0500
+
+    Se modifica el index po formulario
+
+[33mcommit be95a39f03e6c53a85a6d074c86924391288ea72[m
+Author: RafaelMonsalve <mlrh26@homail.com>
+Date:   Wed Apr 12 10:41:03 2023 -0500
+
+    se crea button
+
+[33mcommit 1290cebcca838468c809d9a385bd464158577223[m
+Author: RafaelMonsalve <mlrh26@homail.com>
+Date:   Wed Apr 12 09:41:24 2023 -0500
+
+    Inicialización del proyecto typescript
+
+[33mcommit d4dfd92f9e93756c4d5cfa62484fdffe6a9ac9fa[m
+Author: RafaelMonsalve <mlrh26@homail.com>
+Date:   Tue Apr 11 04:57:20 2023 -0500
+
+    Creación del archivo README.md
+
+[33mcommit dab3c37b85faba1da0a831707db1ea8ac52b1984[m
+Author: RafaelMonsalve <mlrh26@homail.com>
+Date:   Tue Apr 11 04:47:56 2023 -0500
+
+    Creación del repositorio
