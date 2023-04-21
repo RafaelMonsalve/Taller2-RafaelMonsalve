@@ -11,11 +11,7 @@ interface persona{
    linkedin:string;
    github:string;
 }
-//Se crea una constantepara recibir la información del formulario
-const enviar=document.getElementById("form") as HTMLButtonElement;
-//Se crea un evento con el button y el typo submit e iniciar la validación de los datos recibidos
-enviar.addEventListener("submit",(event)=>{
-//Recepción de datos 
+function PersonaNew(){
     const tipodocumento = (document.getElementById("tipoDocumento") as HTMLInputElement).value;
     const numerodocumento= (document.getElementById("numerodocumento")as HTMLInputElement).valueAsNumber;
     const nombres = (document.getElementById("Nombres")as HTMLInputElement).value;
@@ -48,4 +44,5 @@ enviar.addEventListener("submit",(event)=>{
         linkedin, 
         github);NewPersona.persona();
     }
-});
+}
+
