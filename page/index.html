@@ -24,45 +24,47 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          <form class="form-horizontal" role="form">
+          <form id="formluario" class="form-horizontal" role="form">
             <div class="form-group">
-                <label form="tipoDocumento">Tipo de documento</label>
-                <select class="tipoDocumento" form="tipoDocumento">
+                <label form="tipoDocumento" class="form-label">Tipo de documento</label>
+                <select name="tipoDocumento" id="tipoDocumento"  class="form-select">
                   <option >seleccione</option>
-                    <option value="1" id="tipoDocumento">Cédula Ciudadania</option>
-                    <option value="2" id="tipoDocumento">Tarjeta de identidad</option>
-                    <option value="3" id="tipoDocumento">Pasaporte</option>
-                    <option value="4" id="tipoDocumento">Cédula de extranjeria</option>
+                    <option value="1"  >Cédula Ciudadania</option>
+                    <option value="2" >Tarjeta de identidad</option>
+                    <option value="3" >Pasaporte</option>
+                    <option value="4" >Cédula de extranjeria</option>
                     </select>
-                    <label form="numerodocumento">Número Documento</label>
+                    <label form="numerodocumento" class="form-label">Número Documento</label>
                     <input type="number" class="form-control" id="numerodocumento" name="numerodocumento" required>
-                    <label form="Nombres">Nombres</label>
+                    <label form="Nombres" class="form-label">Nombres</label>
                     <input type="text" class="form-control" id="Nombres" name="Nombres"  required>
-                    <label form="Apellidos">Apellidos</label>
+                    <label form="Apellidos" class="form-label" >Apellidos</label>
                     <input type="text" class="form-control" id="Apellidos" name="Apellidos"  required>
-                    <label form="Telefono">Teléfono</label>
+                    <label form="Telefono" class="form-label" >Teléfono</label>
                     <input type="number" class="form-control" id="Telefono" name="Telefono" required>
-                    <label form="correo">Correo Electronico</label>
-                    <input type="email" class="form-control" id="correo" name="correo" required>
+                    <label form="Correo" class="form-label">Correo Electronico</label>
+                    <input type="email" class="form-control" id="Correo" name="correo" required>
                     <label form="linkedin">Dirección linkedin</label>
-                    <input type="text" class="form-control" id="linkelin" name="linkedin" required>
-                    <label form="github">Usuario Github</label>
-                    <input type="text" class="form-control" id="github" name="github" required>
-                </div>
+                    <input type="text" class="form-control" id="Linkelin" name="linkedin" required>
+                    <label form="github" class="form-label" >Usuario Github</label>
+                    <input type="text" class="form-control" id="Github" name="github" required>
+               </div>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cancelar</button>
-          <button type="button" class="btn btn-primary" ondblclick="PesonaNew()">Guardar</button>
+          <button type="submit" class="btn btn-primary" id="Guardar">Guardar</button>
         </div>
       </form>
       </div>
+      <div id="Tabla">
+      </div>
     </div>
   </div>
-            </div>  
+</div>  
 </div>     
 </body>
-<script type="module" src="../dist/class/Persona.js"></script>
-<script type="module" src="../dist/index.js"></script>
 <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+<script type="module" src="../dist/index.js"></script>
+<script type="module" src="../dist/class/api.js"></script>
 </head>
 </html>
